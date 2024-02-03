@@ -28,7 +28,7 @@ function DrawerAppBar(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center', fontFamily: 'Protest Strike' }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
+      <Typography variant="h5" sx={{ my: 2,               fontFamily: 'Protest Strike' }}>
         Juan Reyes
       </Typography>
       <Divider />
@@ -81,6 +81,7 @@ function DrawerAppBar(props) {
         </Toolbar>
       </AppBar>
       <nav>
+
         <Drawer
           container={container}
           variant="temporary"
@@ -91,7 +92,9 @@ function DrawerAppBar(props) {
           }}
           sx={{
             display: { xs: 'block', sm: 'none' },
-            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
+            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth }, fontFamily: 'Protest Strike',
+
+            
           }}
         >
           {drawer}
