@@ -1,5 +1,6 @@
 import ResponsiveAppBar from "./components/ResponsiveAppBar"
 import AboutMe from "./pages/AboutMe"
+import Projects from "./pages/Projects"
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
     <AboutMe/>
     <ResponsiveAppBar/>
+    <Projects/>
     </>
   )
 }
