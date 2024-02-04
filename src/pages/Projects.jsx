@@ -5,18 +5,35 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
+
+const cardContainerStyle = {
+  display: 'flex',
+  justifyContent: 'space-between',
+  flexWrap: 'wrap',
+  paddingLeft: '12%',
+  paddingRight: '12%',
+};
+
+const cardStyle = {
+  maxWidth: 445,
+  marginBottom: '5%',
+  flexBasis: 'calc(33.3333% - 20px)', 
+};
+
 export default function Projects() {
   return (
-    <div style={{ fontFamily: 'Protest Strike, sans-serif', paddingLeft: '12%', paddingRight: '12%'}}>
-    <h1>My Projects</h1>
 
-    <Card sx={{ maxWidth: 445, marginBottom: '5%' }}>
+    <div>
+    <h1 style={{ fontFamily: 'Protest Strike, sans-serif', padding: '12%', paddingBottom: '0%'}}> My Projects</h1>
+    <div style={cardContainerStyle}>
+
+    <Card sx={cardStyle}>
       <CardMedia
         component="img"
         alt="green iguana"
-        height="260"
+        height="220"
         image="https://res.cloudinary.com/delscyuhi/image/upload/v1695872659/tvptex45kwu0sluvn7nq.png"
-      />
+        />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           AISeek
@@ -32,13 +49,13 @@ export default function Projects() {
       </CardActions>
     </Card>
 
-    <Card sx={{ maxWidth: 445, marginBottom: '5%' }}>
+    <Card sx={cardStyle}>
       <CardMedia
         component="img"
         alt="green iguana"
         height="220"
         image="https://res.cloudinary.com/delscyuhi/image/upload/v1695871890/qb2hjytc1vxvgxerstal.png"
-      />
+        />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           MRKT
@@ -54,13 +71,13 @@ export default function Projects() {
       </CardActions>
     </Card>
 
-    <Card sx={{ maxWidth: 445, marginBottom: '5%' }}>
+    <Card sx={cardStyle}>
       <CardMedia
         component="img"
         alt="green iguana"
-        height="270"
+        height="220"
         image="https://res.cloudinary.com/delscyuhi/image/upload/v1695927673/d89mxo4bugoo0sx2lkv6.png"
-      />
+        />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           Pixels
@@ -76,13 +93,13 @@ export default function Projects() {
       </CardActions>
     </Card>
 
-    <Card sx={{ maxWidth: 445, marginBottom: '5%' }}>
-      <CardMedia
+    <Card sx={cardStyle}>
+        <CardMedia
         component="img"
         alt="green iguana"
         height="270"
         image="https://res.cloudinary.com/delscyuhi/image/upload/v1695871890/t65digbrgsxxjcqllxen.png"
-      />
+        />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           Chicken Run
@@ -98,6 +115,7 @@ export default function Projects() {
       </CardActions>
     </Card>
     </div>
+        </div>
 
   );
 }
