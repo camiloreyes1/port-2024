@@ -45,7 +45,7 @@ export default function Projects() {
       </CardContent>
       <CardActions>
         <Button size="small">Demo Video</Button>
-        <Button size="small">Use App</Button>
+        <Button size="small" href='https://aiseek.vercel.app'>Use App</Button>
       </CardActions>
     </Card>
 
@@ -67,7 +67,7 @@ export default function Projects() {
       </CardContent>
       <CardActions>
         <Button size="small" href='https://www.youtube.com/watch?v=AXbWVKRRZwg'>Demo Video</Button>
-        <Button size="small">Use App</Button>
+        <Button size="small" href='https://mrkt.adaptable.app/'>Use App</Button>
       </CardActions>
     </Card>
 
@@ -89,7 +89,7 @@ export default function Projects() {
       </CardContent>
       <CardActions>
         <Button size="small" href='https://www.youtube.com/watch?v=Ms523b8Z_Jw'>Demo Video</Button>
-        <Button size="small">Use App</Button>
+        <Button size="small" href='https://project-3-client-roan.vercel.app/'>Use App</Button>
       </CardActions>
     </Card>
 
@@ -111,7 +111,7 @@ export default function Projects() {
       </CardContent>
       <CardActions>
         <Button size="small">Demo Video</Button>
-        <Button size="small">Use App</Button>
+        <Button size="small" href='https://camiloreyes1.github.io/project-1/'>Use App</Button>
       </CardActions>
     </Card>
     </div>
