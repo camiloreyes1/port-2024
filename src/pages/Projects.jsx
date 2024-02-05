@@ -66,7 +66,7 @@ export default function Projects() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Demo Video</Button>
+        <Button size="small" href='https://www.youtube.com/watch?v=AXbWVKRRZwg'>Demo Video</Button>
         <Button size="small">Use App</Button>
       </CardActions>
     </Card>
@@ -88,7 +88,7 @@ export default function Projects() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Demo Video</Button>
+        <Button size="small" href='https://www.youtube.com/watch?v=Ms523b8Z_Jw'>Demo Video</Button>
         <Button size="small">Use App</Button>
       </CardActions>
     </Card>
