@@ -24,7 +24,7 @@ export default function Projects() {
   return (
 
     <div>
-    <h1 style={{ fontFamily: 'Protest Strike, sans-serif', padding: '12%', paddingBottom: '0%'}}> My Projects</h1>
+    <h1 style={{ fontFamily: 'Protest Strike, sans-serif', padding: '12%', paddingBottom: '0%'}}>Projects</h1>
     <div style={cardContainerStyle}>
 
     <Card sx={cardStyle}>

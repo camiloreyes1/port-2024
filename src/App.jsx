@@ -1,5 +1,6 @@
 import ResponsiveAppBar from "./components/ResponsiveAppBar"
 import AboutMe from "./pages/AboutMe"
+import Experience from "./pages/Experience"
 import MySkills from "./pages/MySkills"
 import Projects from "./pages/Projects"
 
@@ -10,6 +11,7 @@ function App() {
     <AboutMe/>
     <MySkills/>
     <Projects/>
+    <Experience/>
     <ResponsiveAppBar/>
     </>
   )
